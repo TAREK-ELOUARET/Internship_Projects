@@ -1,0 +1,16 @@
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+
+sudo apt-get update
+
+gcc --version
+
+sudo apt-get install gcc-7
+
+sudo update-alternatives --install /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6
+
+sudo update-alternatives --config gcc
+
+
+
+
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/home/odroid/opencv-3.4.1/opencv_contrib-3.4.1/modules -D BUILD_EXAMPLES=ON ..

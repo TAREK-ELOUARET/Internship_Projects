@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/odroid/librealsense-2.10.0/examples/save-to-disk",
+  "command": "/usr/bin/c++   -I/home/odroid/librealsense-2.10.0/examples/save-to-disk/rs-save-to-disk -I/home/odroid/librealsense-2.10.0/examples/save-to-disk/../../common -I/home/odroid/librealsense-2.10.0/examples/save-to-disk/../../third-party -I/home/odroid/librealsense-2.10.0/examples/save-to-disk/../../third-party/tclap/include   -std=c++11 -std=c++11   -o CMakeFiles/rs-save-to-disk.dir/rs-save-to-disk.cpp.o -c /home/odroid/librealsense-2.10.0/examples/save-to-disk/rs-save-to-disk.cpp",
+  "file": "/home/odroid/librealsense-2.10.0/examples/save-to-disk/rs-save-to-disk.cpp"
+},
+{
+  "directory": "/home/odroid/librealsense-2.10.0/examples/C/depth",
+  "command": "/usr/bin/cc     -o CMakeFiles/rs-depth.dir/rs-depth.c.o   -c /home/odroid/librealsense-2.10.0/examples/C/depth/rs-depth.c",
+  "file": "/home/odroid/librealsense-2.10.0/examples/C/depth/rs-depth.c"
+},
+{
+  "directory": "/home/odroid/librealsense-2.10.0/examples/C/color",
+  "command": "/usr/bin/cc     -o CMakeFiles/rs-color.dir/rs-color.c.o   -c /home/odroid/librealsense-2.10.0/examples/C/color/rs-color.c",
+  "file": "/home/odroid/librealsense-2.10.0/examples/C/color/rs-color.c"
+},
+{
+  "directory": "/home/odroid/librealsense-2.10.0/examples/C/distance",
+  "command": "/usr/bin/cc     -o CMakeFiles/rs-distance.dir/rs-distance.c.o   -c /home/odroid/librealsense-2.10.0/examples/C/distance/rs-distance.c",
+  "file": "/home/odroid/librealsense-2.10.0/examples/C/distance/rs-distance.c"
+}
+]

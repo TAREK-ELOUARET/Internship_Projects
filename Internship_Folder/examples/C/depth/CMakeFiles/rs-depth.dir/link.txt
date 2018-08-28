@@ -1,0 +1,1 @@
+/usr/bin/cc  -fopenmp   -fPIC -pedantic -g -D_BSD_SOURCE   -mfpu=neon -mfloat-abi=hard -ftree-vectorize    -rdynamic CMakeFiles/rs-depth.dir/rs-depth.c.o  -o rs-depth -Wl,-rpath,/home/odroid/librealsense-2.10.0:/usr/local/lib: ../../../librealsense2.so.2.10.0 -lGL -lGLU -lm /usr/local/lib/libglfw.so -lusb-1.0 

@@ -1,0 +1,56 @@
+Guide d'installation Unicap et caméra Imaging Source
+
+
+Installation de UNICAP :
+
+Lien :
+
+http://unicap-imaging.org/download.htm
+
+
+- installation de unicap :
+	http://sourceforge.net/projects/unicap/files/unicap/
+
+	./configure
+	make
+	sudo make install
+
+
+	
+	
+Installation des cameras Imaging :
+
+
+Liens :
+
+http://code.google.com/p/tiscamera/wiki/GettingStartedCMOSUVC
+http://www.unicap-imaging.org/tis_devices_en.htm
+
+-	Installation de media_build
+
+http://git.linuxtv.org/media_build.git
+
+	sudo apt-get install patchutils
+	sudo apt-get install libproc-processtable-perl
+
+	git clone git://linuxtv.org/media_build.git
+	cd media_build
+	./build
+    	make install
+
+-	Installation de tiscamera
+
+	git clone https://code.google.com/p/tiscamera/
+	cd tiscamera/tools/euvccam-fw/
+	make
+	sudo ./euvccam-fw -p
+	sudo ./euvccam-fw -u files/dmk22uc03_135.euvc (pour caméra monochrome)
+	sudo ./euvccam-fw -m uvc
+	sudo ./euvccam-fw -p
+
+sudo ./euvccam-fw -u backups/backup_0.euvc
+
+
+
+
+
